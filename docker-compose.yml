@@ -1,0 +1,9 @@
+version: "28.0.4"
+
+services:
+  iris-api:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./models:/app/models
